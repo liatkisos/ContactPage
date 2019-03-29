@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <title>Contact</title>
+</head>
+
+
+<body onload="createCaptcha()">
+   
+    <div class="main">
+        
+    <div class="formcontainer">
+            <h1><u>Contact Us</u></h1> 
+        <form id="myForm" action="javascript:void(0);">
+          <label><b>Enter your name:</b> </label>
+          <input type="text" id="nameinput" name="name"><span id="nameresponse"></span><br><br>
+          <span id="uniquespan"><b>Enter your message:</b> </span>
+          <textarea name="message" id="messageinput" rows="3" cols="20"></textarea><span id="msgresponse"></span><br><br>
+          <label><b>Enter the following digits:</b> </label><br>
+          <div id="captcha"></div><br>
+          <input type="text" id="captchainput" maxlength="6" name="number" ><span id="captcharesponse"></span><br><br>
+          <button class="formbutton" id="submitbutton" type="button"  onclick="validate()">Submit</button>
+      </form>
+    </div>
+    </div>
+    
+   
+</body>
+
+
+</html>

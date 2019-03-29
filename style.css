@@ -1,0 +1,152 @@
+html {
+    background: url(pinkbackground.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .main {
+      margin-top:10%;
+      
+  }
+
+  .formcontainer {
+    margin:auto;
+    position:relative;
+    width:30%;
+    background-color:rgba(245, 245, 245, 0.742);
+    border: 5px ridge whitesmoke;
+    padding: 5px;
+  }
+
+  #thankyoucontainer {
+    /* margin:auto;
+    position:relative;
+    width:30%;
+    background-color:rgba(245, 245, 245, 0.742);
+    border: 5px ridge whitesmoke;
+    padding: 5px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align:center;
+  }
+
+h1 {
+    margin-bottom:10%;
+    position:relative;
+    text-align:center;
+}
+
+
+
+label {
+    width:20%;
+    text-align: left;
+}
+
+textarea {
+/* margin-top:-15px; */
+border: .5px inset #eee;
+width:30%;
+}
+/* 
+#uniquespan{ 
+ vertical-align: top;
+ position: relative;
+} */
+
+input {
+    border: .5px inset #eee;
+    /* margin-bottom:10px; */
+    width:30%;
+    
+}
+
+.backbutton{
+  border: 1px outset #eee;
+  width:60%;
+  /* height:20px; */
+  color:rgb(0, 0, 0);
+  margin:auto;
+  position:relative;
+  text-align:center;
+  text-decoration: bold;
+}
+
+#submitbutton{
+    border: 1px outset #eee;
+    width:70px;
+    height:20px;
+    color:rgb(0, 0, 0);
+}
+
+#nameresponse {
+    display:block;
+    color:red;
+    font-size:80%;
+}
+
+#msgresponse {
+    display:block;
+    color:red;
+    font-size:80%;
+}
+
+#captcharesponse {
+    display:block;
+    color:red;
+    font-size:80%;
+}
+
+#pic {
+    width:14%;
+    height:15%;    
+}
+
+#captcha {
+    background: url("captchabkgd.jpg");
+}
+
+#pic {
+    -o-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    position: relative;
+    top: 3px;
+    left:7%;
+    bottom:5px;
+  }
+
+#pic:nth-child(even) {
+    -o-transform: rotate(-17deg);
+    -webkit-transform: rotate(-17deg);
+    -moz-transform: rotate(-17deg);
+    position: relative;
+    top: 3px;
+  }
+  
+  #pic:nth-child(3n) {
+    -o-transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    position: relative;
+    top: 3px;
+  }
+  
+  #pic:nth-child(4n) {
+    -o-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    position: relative;
+    top: 3px;
+  }
+  #pic:nth-child(5n) {
+    -o-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    position: relative;
+    top: 3px;
+  }
+  
+ 
+  
